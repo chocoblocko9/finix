@@ -61,7 +61,7 @@ let
         ln -sf "../../$MDEV" "/dev/disk/by-id/$MDEV"
 
         # Create by-label and by-uuid symlinks from blkid output
-        blkid --output export "/dev/$MDEV" 2>/dev/null | while IFS='=' read -r key value; do
+        ${pkgs.util-linux}/bin/blkid --output export "/dev/$MDEV" 2>/dev/null | while IFS='=' read -r key value; do
           case "$key" in
             LABEL)
               mkdir -p /dev/disk/by-label
