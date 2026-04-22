@@ -27,6 +27,8 @@
   "mount(8)": "https://man.archlinux.org/man/mount.8",
   "nix.conf(5)": "https://man.archlinux.org/man/nix.conf.5",
   "nvidia-persistenced(1)": "https://man.archlinux.org/man/nvidia-persistenced.1",
+  "pam_env(8)": "https://man.archlinux.org/man/pam_env.8",
+  "pam_env.conf(5)": "https://man.archlinux.org/man/pam_env.conf.5",
   "resolvconf.conf(5)": "https://man.archlinux.org/man/resolvconf.conf.5",
   "sshd(8)": "https://man.archlinux.org/man/sshd.8",
   "sshd_config(5)": "https://man.archlinux.org/man/sshd_config.5",
@@ -34,5 +36,7 @@
   "sysctl(8)": "https://man.archlinux.org/man/sysctl.8",
   "thermald(8)": "https://man.archlinux.org/man/thermald.8",
   "tmpfiles.d(5)": "https://man.archlinux.org/man/tmpfiles.d.5",
-  "udisks2.conf(5)": "https://man.archlinux.org/man/extra/udisks2/udisks2.conf.5"
+  "udisks2.conf(5)": "https://man.archlinux.org/man/extra/udisks2/udisks2.conf.5",
+  "vnstat.conf(5)": "https://man.archlinux.org/man/vnstat.conf.5",
+  "vnstatd(8)": "https://man.archlinux.org/man/vnstatd.8"
 }
